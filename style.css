@@ -8,6 +8,11 @@
 body,
 footer {
     font-family: 'Albert Sans', sans-serif;
+}
+
+/* header style */
+
+header {
     margin: 3vw 8vw;
 }
 
@@ -58,7 +63,7 @@ footer {
 .home-info button a {
     text-decoration: none;
     color: white;
-    font-size: 1.4vw;
+    font-size: 25px;
 }
 
 /* home banner button animation */
@@ -80,4 +85,52 @@ footer {
 .home-img img {
     width: 100%;
     background-size: cover;
+}
+
+/*===================
+    footer section 
+ =====================*/
+footer {
+    background-color: rgb(43, 43, 69);
+    padding: 3rem 8vw 5rem 8vw;
+    text-align: center;
+}
+
+footer h2 {
+    color: white;
+    font-size: 3rem;
+}
+
+hr {
+    margin: 40px 0;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    line-height: 40px;
+    display: inline-block;
+    margin: 0 1.5vw;
+}
+
+ul li a {
+    color: #B9B9B9;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px 1vw;
+    color: #B9B9B9;
+    font-size: 30px;
 }
