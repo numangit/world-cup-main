@@ -51,6 +51,7 @@ footer {
     padding: 16PX 25PX;
     border: none;
     border-radius: 5px;
+    transition: 0.8s;
 }
 
 /* mmmmm BtN ANCHOR */
@@ -58,6 +59,17 @@ footer {
     text-decoration: none;
     color: white;
     font-size: 1.4vw;
+}
+
+/* home banner button animation */
+.home-info button:hover {
+    background: none;
+    border: 1px solid orange;
+    cursor: pointer;
+}
+
+.home-info button:hover a {
+    color: orange;
 }
 
 /* home image  */
