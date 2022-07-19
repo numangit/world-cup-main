@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*=========== common styles======= */
+body,
+footer {
+    font-family: 'Albert Sans', sans-serif;
+    margin: 3vw 8vw;
+}
+
+/*===================
+ home banner section 
+ =====================*/
+.home-banner {
+    display: flex;
+    justify-content: center;
+    background: rgb(43, 43, 69);
+    border-radius: 30px;
+    /* SIDES WILL CHANGE IN TAB AND MOBILE*/
+    padding: 2vw 5vw 0 5vw;
+}
+
+/* home info  */
+.home-info {
+    width: 50%;
+    text-align: left;
+    /* maybe WILL CHANGE IN  MOBILE*/
+    padding: 10vw 0 0 1vw;
+}
+
+/* mmmmmmmm P1 */
+.home-info h1 {
+    color: white;
+    font-size: 4vw;
+}
+
+/* mmmmmmmmmmP3 */
+.home-info p {
+    color: white;
+    font-size: 1vw;
+    /* maybe WILL CHANGE IN  MOBILE*/
+    margin: 1.5vw 0 2.5vw 0;
+}
+
+/* mmmMMMm BTN 1 */
+.home-info button {
+    background: orange;
+    padding: 16PX 25PX;
+    border: none;
+    border-radius: 5px;
+}
+
+/* mmmmm BtN ANCHOR */
+.home-info button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4vw;
+}
+
+/* home image  */
+.home-img {
+    width: 50%;
+}
+
+.home-img img {
+    width: 100%;
+    background-size: cover;
+}
