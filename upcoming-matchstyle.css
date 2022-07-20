@@ -120,6 +120,11 @@ main {
 }
 
 /* color for selected button */
+.selected-button {
+    display: flex;
+    justify-content: center;
+}
+
 .selected-button button {
     text-align: center;
     width: 252px;
@@ -234,7 +239,7 @@ ul li a {
 media query
 =============================================================================================== */
 /* for small devices */
-@media only screen and (max-width:376px) {
+@media only screen and (max-width:480px) {
     .home-banner {
         flex-direction: column;
         justify-content: center;
@@ -276,7 +281,7 @@ media query
         border: 1px solid rgb(172, 171, 171);
     }
 
-    .blogs {
+    .matches {
         grid-template-columns: repeat(1, auto);
         grid-gap: 24px;
     }
@@ -290,7 +295,7 @@ media query
 }
 
 /* for  medium device*/
-@media only screen and (min-width:377px) and (max-width:1600px) {
+@media only screen and (min-width:481px) and (max-width:1600px) {
 
     /* banner */
     .home-banner {
@@ -334,7 +339,7 @@ media query
     }
 
     /*  blogs section */
-    .blogs {
+    .matches {
         grid-template-columns: repeat(2, auto);
         grid-gap: 15px;
     }
