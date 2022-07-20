@@ -4,23 +4,19 @@
     box-sizing: border-box;
 }
 
-/*====================== 
-      common styles
-======================= */
+/*====================== common styles ======================= */
 body,
 footer {
     font-family: 'Albert Sans', sans-serif;
 }
 
-/* header style */
+/*=================== Header starts here =====================*/
 
 header {
     margin: 3vw 8vw;
 }
 
-/*===================
- home banner section 
- =====================*/
+/* home banner section */
 .home-banner {
     display: flex;
     justify-content: center;
@@ -29,7 +25,7 @@ header {
     padding: 2vw 5vw 0 5vw;
 }
 
-/* home info  */
+/* home banner texts  */
 .home-info {
     width: 50%;
     text-align: left;
@@ -82,9 +78,7 @@ header {
     background-size: cover;
 }
 
-/*===================
-    main section 
- =====================*/
+/*=================== main section styles =====================*/
 main {
     display: flex;
     margin: 3vw 8vw;
@@ -181,9 +175,7 @@ main {
     border: none;
 }
 
-/*===================
-    footer section 
- =====================*/
+/*=================== footer styles =====================*/
 footer {
     background-color: rgb(43, 43, 69);
     padding: 3rem 8vw 5rem 8vw;
@@ -229,9 +221,7 @@ ul li a {
     font-size: 30px;
 }
 
-/* ===========================================================================================
-media query
-=============================================================================================== */
+/* ============================   media query   =============================== */
 /* for small devices */
 @media only screen and (max-width:376px) {
     .home-banner {
