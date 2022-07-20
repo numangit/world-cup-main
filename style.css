@@ -94,16 +94,19 @@ main {
     /*WILL CHANGE IN  MOBILE*/
     display: flex;
     margin: 3vw 8vw;
+    gap: 24px;
 }
 
 /* menu navigation buttons */
 .menu {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     background: rgb(43, 43, 69);
     padding: 15px 30px;
-    /* width WILL CHNAGE IN OTHER VIEW */
+    /* width and height WILL CHNAGE IN OTHER VIEW */
     width: 312px;
+    height: 312px;
     border-radius: 10px;
 }
 
@@ -115,6 +118,7 @@ main {
     margin: 15px auto;
     background: #FFFFFF;
     border-radius: 10px;
+    border: none;
 }
 
 .menu button a {
@@ -132,6 +136,7 @@ main {
     margin: 15px auto;
     background: rgb(255, 111, 1);
     border-radius: 10px;
+    border: none;
 }
 
 .selected-button button a {
@@ -141,6 +146,39 @@ main {
 }
 
 /*  blogs section */
+.blogs {
+    display: grid;
+    /* WILL CHANGE */
+    /* be care full with rpeat size */
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 24px;
+}
+
+.blog {
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 10px;
+}
+
+.blog img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.blog-info {
+    padding: 20px;
+}
+
+.blog-info button {
+    font-size: 16px;
+    padding: 4px 16px;
+}
+
+.blog-info h3 {
+    font-size: 20px;
+    padding: 17px 0 20px 0;
+}
+
 
 /* view all button [bonus] */
 .view-button button {
