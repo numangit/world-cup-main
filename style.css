@@ -67,7 +67,7 @@ header {
     background: none;
     border: 3px solid orange;
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.2);
     animation: none;
 }
 
