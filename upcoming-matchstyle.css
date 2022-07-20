@@ -55,9 +55,9 @@ header {
 
     transition: 0.8s;
     animation-name: live-button;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-out;
 }
 
 .home-info button a {
@@ -71,7 +71,7 @@ header {
     background: none;
     border: 3px solid orange;
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.15);
     animation: none;
 }
 
@@ -93,7 +93,7 @@ header {
         border-radius: 5px;
     }
 
-    75% {
+    50% {
         background: none;
         border: 2px solid rgba(255, 255, 255, 0.438);
         border-radius: 5px;
