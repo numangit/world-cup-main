@@ -66,6 +66,7 @@ header {
     background: none;
     border: 1px solid orange;
     cursor: pointer;
+    transform: scale(1.2);
 }
 
 .home-info button:hover a {
