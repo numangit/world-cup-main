@@ -52,7 +52,7 @@ header {
 
 /* mmmMMMm BTN 1 */
 .home-info button {
-    background: orange;
+    background: rgb(255, 111, 1);
     padding: 16PX 25PX;
     border: none;
     border-radius: 5px;
@@ -88,6 +88,57 @@ header {
 }
 
 /*===================
+    main section 
+ =====================*/
+main {
+    /*WILL CHANGE IN  MOBILE*/
+    display: flex;
+    margin: 3vw 8vw;
+}
+
+/* menu navigation buttons */
+.menu {
+    display: flex;
+    flex-direction: column;
+    background: rgb(43, 43, 69);
+    padding: 15px 30px;
+    /* width WILL CHNAGE IN OTHER VIEW */
+    width: 312px;
+    border-radius: 10px;
+}
+
+.menu button {
+    text-align: center;
+    /* width WILL CHNAGE IN OTHER VIEW */
+    width: 252px;
+    padding: 17px 0;
+    margin: 15px auto;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+/* #selected-button {
+    text-align: center;
+    /* width WILL CHNAGE IN OTHER VIEW *
+    width: 252px;
+    padding: 17px 0;
+    margin: 15px auto;
+    background: orange;
+    border-radius: 10px;
+} */
+.menu button a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+/*  blog section */
+
+
+
+
+/*===================
     footer section 
  =====================*/
 footer {
@@ -110,6 +161,7 @@ ul {
     text-align: center;
 }
 
+/* THIS WILL CHANGE IN MOBILE VIEW */
 ul li {
     line-height: 40px;
     display: inline-block;
